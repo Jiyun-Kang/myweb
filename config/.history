@@ -1,0 +1,17 @@
+cd ..
+cd node_html-master\
+git add README.md
+git config user.name "Jiyun-Kang"
+git config user.email "kdreamer4663@gmail.com"
+git branch -M main
+git remote add origin https://github.com/Jiyun-Kang/mywebsite.git
+git push -u origin main
+echo "# myweb" >> README.md
+git add .
+git add*
+git add *
+ls
+cd
+echo "# mywebsite" >> README.md
+git init
+git add  *
