@@ -12,20 +12,22 @@ git remote add origin https://github.com/Jiyun-Kang/myweb.git
 cd  c:\workspace
 cd node_html-master
 rm -rf .git
-git add  *
 git commit -m "second"
 git commit -m "update"
 git commit -m "update2"
 git config user.name "Jiyun-Kang"
 git config user.email "kdreamer4663@gmail.com"
 git commit -m "update3"
-git commit -m "first commit"
 git commit -m "update5"
 git commit -m "update6"
-git branch -M main
 git remote add origin https://github.com/Jiyun-Kang/mywebsite.git
 git remote add origin https://github.com/Jiyun-Kang/webmysite.git
+git add *
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Jiyun-Kang/jiyun.git
 git push -u origin main
+echo "# jiyun" >> *
 echo "# jiyun" >> README.md
 git init
-git add *
+git add  *
